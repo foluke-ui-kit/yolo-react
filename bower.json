@@ -1,0 +1,41 @@
+{
+  "name": "frontend-ui",
+  "version": "0.2.3",
+  "homepage": "https://github.com/sgkit/frontend-ui",
+  "authors": [
+    "shawn sandy <shawnsandy04@gmail.com>"
+  ],
+  "description": "A UI Toolkit for Frontend developers",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "Angular",
+    "Polymer",
+    "HTML5",
+    "Elements",
+    "Components",
+    "Modules"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "fontawesome": "~4.2.0",
+    "modernizer": "~2.8.2"
+  },
+  "devDependencies": {
+    "lesshat": "~3.0.2",
+    "basscss": "~6.1.6",
+    "flex-object": "git@github.com:basscss/flex-object.git#~1.1.3"
+  }
+}
