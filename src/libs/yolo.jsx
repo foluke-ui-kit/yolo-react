@@ -17,7 +17,16 @@ var Yolo = React.createClass({
 
 componentDidMount(){
 
-   $(React.findDOMNode(this.refs.dataTable)).DataTable()
+   $(React.findDOMNode(this.refs.dataTable)).DataTable();
+
+    $.ajax({
+        type: "GET",
+        url: "data/users.json",
+        dataType: "json",
+        success: function(data){
+            console.log(data);
+        }.bind(this)
+    })
 
 },
 
@@ -27,7 +36,7 @@ render: function () {
 
     return (
         <div>
-            <table ref="dataTable" className="table table-bordered table-striped">
+            <table ref="dataTable" className="table table-hover">
                 <caption>Optional table caption.</caption>
                 <thead>
                 <tr>
