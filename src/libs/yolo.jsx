@@ -13,6 +13,9 @@ var DataTable = require('datatables');
  * Briefly describe your Element here
  */
 
+
+
+
 var Yolo = React.createClass({
 
 componentDidMount(){
@@ -39,29 +42,9 @@ render: function () {
     return (
         <div>
             <table ref="dataTable" className="table table-hover">
-                <caption>Optional table caption.</caption>
-                <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Age</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
-                </tr>
-                </thead>
-
-                <tfoot>
-                <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Age</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
-                </tr>
-                </tfoot>
-
+                <Yolo.TableCaption />
+                <Yolo.TableHeader />
+                <Yolo.TableHeader tag="tfoot" />
                 <tbody>
                 <tr>
                     <td>Tiger Nixon</td>
@@ -527,6 +510,68 @@ render: function () {
 
 })
 ;
+
+Yolo.TableCaption = React.createClass({
+
+    getDefaultProps(){
+        return {
+            caption: "UI DATATABLE"
+        }
+    },
+
+    render: function(){
+        return (
+            <caption>{ this.props.caption }</caption>
+        );
+    }
+
+});
+
+Yolo.TableHeader = React.createClass({
+
+    getDefaultProps(){
+        return {
+
+            tag: 'thead',
+            pagingType: 'full_numbers'
+
+        }
+    },
+
+    render: function(){
+
+        var tag = this.props.tag;
+
+            if(tag == 'tfoot'){
+                return ( <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                )
+            } else {
+                return (
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                    </tr>
+                </tfoot>
+                )
+            }
+
+    }
+
+});
 
 
 /**

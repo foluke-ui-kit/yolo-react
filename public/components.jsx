@@ -3,6 +3,7 @@
  */
 
 var React = require("react");
+//var Styles = require("../node_modules/datatables/media/css/jquery.dataTables.css");
 //var $ = require('jquery');
 
 /**
