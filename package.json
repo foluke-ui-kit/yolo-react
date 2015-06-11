@@ -1,5 +1,5 @@
 {
-  "name": "start-react",
+  "name": "Yolo",
   "version": "0.1.0",
   "description": "Start react development here...",
   "main": "app/main.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/foluke-ui-kit/start-react.git"
+    "url": "https://github.com/foluke-ui-kit/yolo-react"
   },
   "keywords": [
     "react"
@@ -20,13 +20,16 @@
   "author": "shawn sandy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/foluke-ui-kit/start-react/issues"
+    "url": "https://github.com/foluke-ui-kit/yolo-react/issues"
   },
-  "homepage": "https://github.com/foluke-ui-kit/start-react",
+  "homepage": "https://github.com/foluke-ui-kit/yolo-react",
   "devDependencies": {
     "browser-sync": "^2.7.6",
     "css-loader": "^0.14.4",
+    "datatables": "^1.10.7",
     "file-loader": "^0.8.4",
+    "fixed-data-table": "^0.3.0",
+    "griddle-react": "^0.2.13",
     "gulp": "^3.8.9",
     "jquery": "^2.1.4",
     "jsx-loader": "^0.13.2",
@@ -34,6 +37,7 @@
     "object-assign": "^2.0.0",
     "react": "^0.13.3",
     "style-loader": "^0.12.3",
+    "underscore": "^1.8.3",
     "url-loader": "^0.5.6",
     "watchify": "^3.2.1",
     "webpack": "^1.9.10"
