@@ -17,7 +17,9 @@ var Yolo = React.createClass({
 
 componentDidMount(){
 
-   $(React.findDOMNode(this.refs.dataTable)).DataTable();
+   $(React.findDOMNode(this.refs.dataTable)).DataTable({
+
+   });
 
     $.ajax({
         type: "GET",
