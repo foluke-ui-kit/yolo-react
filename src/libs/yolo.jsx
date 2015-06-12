@@ -137,8 +137,8 @@ Yolo.Header = React.createClass({
                 <tr>
                     <th>Name</th>
                     <th>Username</th>
-                    <th>Office</th>
                     <th>Password</th>
+                    <th>SSN</th>
                     <th>Gender</th>
                     <th>Updated</th>
                 </tr>
@@ -150,8 +150,8 @@ Yolo.Header = React.createClass({
                 <tr>
                     <th>Name</th>
                     <th>Username</th>
-                    <th>Office</th>
                     <th>Password</th>
+                    <th>SSN</th>
                     <th>Gender</th>
                     <th>Updated</th>
                 </tr>
