@@ -1,6 +1,6 @@
 {
   "name": "Yolo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Start react development here...",
   "main": "app/main.js",
   "scripts": {
@@ -26,7 +26,6 @@
   "devDependencies": {
     "browser-sync": "^2.7.6",
     "css-loader": "^0.14.4",
-
     "datatables": "^1.10.7",
     "file-loader": "^0.8.4",
     "fixed-data-table": "^0.3.0",
