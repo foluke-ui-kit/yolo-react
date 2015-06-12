@@ -68,8 +68,8 @@ var Yolo = React.createClass({
                     <td>{row.username}</td>
                     <td>{row.password} </td>
                     <td>{row.ssn} </td>
-                    <td>{row.gender} </td>
-                    <td>{row.updated_at} </td>
+                    <td>{row.gender}</td>
+                    <td>{row.updated_at}</td>
                 </tr>
             );
         })
