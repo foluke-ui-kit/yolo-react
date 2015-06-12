@@ -14,3 +14,18 @@ input {
 thead, tfoot {
     background-color: #eaeaea;
 }
+
+a.paginate_button {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 20px;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+a.paginate_button.current {
+  background-color: #ccc;
+}

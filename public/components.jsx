@@ -13,7 +13,7 @@ var React = require("react");
 // import the component
 var Yolo = require('../src/libs/yolo.jsx');
 // render the main component
-React.render(<Yolo />, document.getElementById('component'));
+React.render(<Yolo dataUrl="data/users.json" />, document.getElementById('component'));
 // render the NameSpaced child component using the
 React.render(<Yolo.Button />, document.getElementById('button'));
 // render the NameSpaced child component with props
