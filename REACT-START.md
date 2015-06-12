@@ -4,8 +4,7 @@ A simple, somewhat opiniated -- no fuss, no bells, no whistles boilerplate for c
 __Features:__
 
 * NPM - Package management, scripts directives for build management.
-
-* Browser - Sync live browser reload files including react components.  
+* Browser - Sync live browser reload files including react components.
 
 * Webpack - Bundle modules and dependencies
 

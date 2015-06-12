@@ -12,8 +12,8 @@ var commonsPlugin = new webpack.optimize.CommonsChunkPlugin({
 module.exports = {
     entry: {
         main: './public/components.jsx',
-        vendors: ['react','jquery']
-
+        vendors: ['react','jquery'],
+        styles: ['./node_modules/datatables/media/css/jquery.dataTables.css']
     },
     output: {
         path: './app/',
